@@ -18,7 +18,7 @@ echo "  -prefix $PREFIX_PATH"
 echo ""
 echo "Press any key to configure Qt..."
 read
-./configure -static -release -opensource -nomake examples -nomake demos -prefix /Users/dankrusi/Qt/5.1.0-static
+./configure -static -release -opensource -nomake examples -nomake demos -prefix $PREFIX_PATH
 
 echo ""
 echo "Press any key to buikd Qt..."
